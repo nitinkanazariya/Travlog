@@ -21,8 +21,8 @@ const Destination = () => {
 
   ];
   return (
-    <div className='mt-[64px] xl:mt-[200px] '>
-      <div className={`block 2xl:flex 2xl:justify-between items-center `}>
+    <div className='mt-[64px] xl:mt-[200px] block sm:flex sm:justify-center items-center flex-col'>
+      <div className={`block 2xl:flex xl:justify-between items-center w-full `}>
         <div className='text-center 2xl:text-start text-focus-in '>
           <p className='text-[16px] md:text-[23px] tracking-[6px] font-bold text-secondary'>
             Top Destination
@@ -37,7 +37,7 @@ const Destination = () => {
           <ArrowButton onClick={() => { setIsFocuse(2) }} type={isfocouse === 2 ? 'right' : 'left'} IMG={isfocouse === 1 ? IMAGE.RightBlackArrow : IMAGE.RightArrow} color={'bg-secondary'} />
         </div>
       </div>
-      <div className='hidden sm:block w-full sm:h-[575px] bg-transparent'>
+      <div className='hidden sm:block mt-16 lg:max-w-3xl sm:max-w-2xl  xl:max-w-5xl  w-full '>
         <Swiper
           className='mt-16 '
           slidesPerView={3}

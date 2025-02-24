@@ -14,6 +14,7 @@ import BlackRight from '../assets/Images/blackrightarrow.png'
 import Beach from '../assets/Images/beach.png'
 import Fish from '../assets/Images/fish.png'
 import Mountain from '../assets/Images/mountain.png'
+import TravelPoint from '../assets/Images/travelpoint.png'
 
 
 
@@ -34,4 +35,5 @@ export const IMAGE = {
   Beach: Beach,
   Fish: Fish,
   Mountain: Mountain,
+  TravelPoint: TravelPoint,
 };

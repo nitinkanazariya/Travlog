@@ -7,7 +7,7 @@ import TravelPoint from './TravelPoint';
 
 const HomePage = () => {
   const screenHeight = window.outerHeight;
-  console.log("Full screen height:", screenHeight);
+  console.log("Full screen height :", screenHeight);
 
   return (
     <>
